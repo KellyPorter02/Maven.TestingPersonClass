@@ -10,13 +10,17 @@ public class Person {
     public Person() {
     }
 
-    public Person(int age) {
+    public Person(int personsAge) {
+        age = personsAge;
     }
 
-    public Person(String name) {
+    public Person(String personsName) {
+        name = personsName;
     }
 
-    public Person(String name, int age) {
+    public Person(String personsName, int personsAge) {
+        name = personsName;
+        age = personsAge;
     }
 
     public void setName(String name) {
@@ -26,10 +30,10 @@ public class Person {
     }
 
     public String getName() {
-        return null;
+        return name;
     }
 
     public Integer getAge() {
-        return null;
+        return age;
     }
 }
