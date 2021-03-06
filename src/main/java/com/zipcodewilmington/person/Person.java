@@ -8,6 +8,8 @@ public class Person {
     private int age;
 
     public Person() {
+        name = "";
+        age = Integer.MAX_VALUE;
     }
 
     public Person(int personsAge) {
@@ -23,10 +25,13 @@ public class Person {
         age = personsAge;
     }
 
-    public void setName(String name) {
+    public void setName(String personsName) {
+        name = personsName;
     }
 
-    public void setAge(int age) {
+    public void setAge(int personsAge) {
+        age = personsAge;
+
     }
 
     public String getName() {
